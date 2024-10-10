@@ -14,7 +14,7 @@ por ejemplo el 6, sus divisores son 1,2,3 la suma de los mismos es 6 */
   if ($sum == $num && $num != 1) {
     echo "$num es perfecto";
   } else {
-    echo "$num NO es perfecto";
+    echo "$num NO  es perfecto";
   }
 
 ?>
