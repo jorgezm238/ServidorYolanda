@@ -8,7 +8,7 @@ include 'matematicas.php';
     $numeros = [10, 15, 3, 7, 22, 5];
     $limite = 10;
     
-    $resultado = ej4($numero    s, $limite);
+    $resultado = ej4($numeros, $limite);
     echo "Las soluciones son: " . implode(", ", $resultado) . "\n";
     echo "<br>";
     var_dump($resultado);
