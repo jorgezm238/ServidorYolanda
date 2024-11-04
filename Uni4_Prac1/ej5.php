@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
     foreach ($datos_formulario as $key => $value) {
         echo $key . " = ". $value. "</br>";
     }
-    echo "<br> La suma es $suma <br>";
+    echo "<br> La suma es $suma <br>";//ddd
 
     echo'<form action="ej5.php" method ="post">';
     for ($i=0; $i <=8 ; $i++) { 
