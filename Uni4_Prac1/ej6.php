@@ -41,7 +41,7 @@
         echo "<br>la suma es $suma<br>";
         // Repetir form
         //Cambios
-        echo'<form action="Ejercicio6Unidad4.php" method="post">';
+        echo'<form action="ej6.php" method="post">';
         echo '
             <label for="nombre">Numero de Elementos:</label>
                 <input type="text" id="numero" name="numero"><br>';
@@ -62,7 +62,7 @@
         }
     }else{
         //Cambios
-        echo'<form action="Ejercicio6Unidad4.php" method="post">';
+        echo'<form action="ej6.php" method="post">';
         echo '
             <label for="nombre">Numero de Elementos:</label>
                 <input type="text" id="numero" name="numero"><br>';
@@ -71,7 +71,7 @@
         if(isset($_POST['Aceptar'])){
             $numero_de_elementos=$_POST['numero'];  
         //
-            echo '<form action="Ejercicio6Unidad4.php" method="post">';
+            echo '<form action="ej6.php" method="post">';
             for ($i = 0; $i < $numero_de_elementos; $i++) { 
                 echo '
                     <label for="nombre">'.($i+1).':</label>
