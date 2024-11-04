@@ -48,7 +48,7 @@ else {
     }
     echo '<input type="submit" name ="submit" value="Enviar">';
     echo '</form>';
-}
+}// FIN PROGRAMA
  ?>
 </body>
 </html>

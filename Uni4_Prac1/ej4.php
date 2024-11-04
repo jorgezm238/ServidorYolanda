@@ -102,7 +102,7 @@ if (isset($_POST['mes']) && isset($_POST['anio'])) {
 
     echo "</tr>";
     echo "</table>";
-}
+}// FIN PROGRAMA
 ?>
 
 </body>

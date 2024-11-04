@@ -65,7 +65,7 @@
                         <input type='submit' name='multiplicacion' value='Multiplicación'>
                         <input type='submit' name='division' value='División'>
                         </form>";
-                    }
+                    }// FIN PROGRAMA
 
 ?>
 </body>
