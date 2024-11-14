@@ -1,17 +1,16 @@
 <?php
 session_start();
 
-// Generar un número binario de 4 dígitos y calcular su valor decimal
-$binario = str_pad(decbin(rand(0, 15)), 4, '0', STR_PAD_LEFT);
-$decimal = bindec($binario);
-$_SESSION['numero_decimal'] = $decimal;  // Guardar el valor decimal en la sesión
 
-// Representación gráfica de las cartas según el número binario
+$binario = str_pad(decbin(rand(0, 15)));
+$decimal = bindec($binario);
+$_SESSION['numero_decimal'] = $decimal;  
+
+
 function mostrarCartas($binario) {
     $cartas = '';
     for ($i = 0; $i < 4; $i++) {
-        $cartas .= ($binario[$i] == '1') ? "<img src='carta.png' alt='Carta' width='50'>" : "<div style='width:50px;height:75px;background:black;display:inline-block;'></div>";
-    }
+        
     return $cartas;
 }
 ?>
