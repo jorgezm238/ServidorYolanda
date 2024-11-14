@@ -16,7 +16,7 @@
             for ($j=0; $j <$columnas ; $j++) { 
                 $indice = ($i * $columnas) + $j + 1;
                 echo"<td>E.$i.$j</td>";
-                echo"<td><input type 'text' name ='va   lor$indice'/></td>";
+                echo"<td><input type 'text' name ='valor$indice'/></td>";
 
             }
                 echo"</tr>";
